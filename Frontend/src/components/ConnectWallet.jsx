@@ -16,9 +16,10 @@ const ConnectWallet = () => {
 
     return (
         <div
-        className="min-h-screen flex items-center justify-center bg-cover bg-center"
-        style={{ backgroundImage: `url(${bg})` }}
-    >
+            className="min-h-screen flex items-center justify-center bg-cover bg-center"
+            style={{ backgroundImage: `url(${bg})` }}
+        >
+            <h2 className="text-3xl font-bold text-[#FFD700] absolute top-0 left-0 ml-4 mt-4">LiquidityPool</h2>
             <div className="absolute top-0 right-0 z-10 px-4 mt-8">
                 <button
                     onClick={connectMetamask}
@@ -28,6 +29,8 @@ const ConnectWallet = () => {
                 </button>
             </div>
         </div>
+
+
     );
 };
 export default ConnectWallet
