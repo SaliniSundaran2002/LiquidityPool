@@ -118,7 +118,7 @@ npx hardhat test
 ## **Acknowledgments**
 - **[OpenZeppelin](https://openzeppelin.com/)**: For providing robust ERC20 implementations.
 - **[Hardhat](https://hardhat.org/)**: For simplifying Ethereum development workflows.
-- Community contributors and testers for their invaluable feedback and support.
+
 
 ---
 
