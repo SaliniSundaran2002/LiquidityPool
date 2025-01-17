@@ -30,7 +30,7 @@ const RemoveLiquidity = () => {
 >
  
   <h2 className="absolute top-4 left-4 text-3xl font-bold text-[#FFD700]">
-    TokenFlow
+    LiquidityPool
   </h2>
 
   <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">

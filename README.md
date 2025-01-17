@@ -1,7 +1,7 @@
-# **Token-Swap**
+# **LiquidityPool**
 
 ## **Overview**
-The **Token-Swap** project is a decentralized application (dApp) designed to streamline token interactions on the Ethereum blockchain. It integrates the following key features:
+The **LiquidityPool** project is a decentralized application (dApp) designed to streamline token interactions on the Ethereum blockchain. It integrates the following key features:
 - Deployment of customizable ERC20 tokens.
 - Creation and management of a liquidity pool smart contract.
 - User-friendly frontend for seamless token swapping, liquidity addition, and removal.
@@ -44,8 +44,8 @@ Ensure the following tools are installed on your system:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/TVVinudev/Token-Swap.git
-   cd Token-Swap
+   git clone https://github.com/SaliniSundaran2002/LiquidityPool
+   cd LiquidityPool
    ```
 
 2. **Install Dependencies**:
@@ -56,7 +56,7 @@ Ensure the following tools are installed on your system:
 3. **Configure Environment Variables**:
    Create a `.env` file in the project root and define the following:
    ```env
-   URL_ALCHEMY=your_api_key
+   API_KEY=your_api_key
    PRIVATE_KEY=your_ethereum_private_key
    ```
    Alternatively, use Hardhat's localhost environment:
@@ -68,18 +68,18 @@ Ensure the following tools are installed on your system:
 4. **Compile and Deploy Smart Contracts**:
    ```bash
    npx hardhat compile
-   npx hardhat run scripts/deploy.js --network <network-name>
+   npx hardhat ignition deploy ignition/modules/deploy.js --network <network-name>
    ```
 
 5. **Launch the Frontend**:
    ```bash
-   cd front-end
+   cd Frontend
    npm install
    npm run dev
    ```
 
 6. **Access the dApp**:
-   Open your browser and navigate to `http://localhost:5173`.
+   Open your browser and navigate to `http://localhost:3000`.
 
 ---
 
@@ -114,26 +114,13 @@ npx hardhat test
 
 ---
 
-## **Contributing**
-Contributions are welcome! Follow these steps to contribute:
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Submit a pull request for review.
-
----
 
 ## **Acknowledgments**
 - **[OpenZeppelin](https://openzeppelin.com/)**: For providing robust ERC20 implementations.
 - **[Hardhat](https://hardhat.org/)**: For simplifying Ethereum development workflows.
 - Community contributors and testers for their invaluable feedback and support.
+
+---
+
+## **License**
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

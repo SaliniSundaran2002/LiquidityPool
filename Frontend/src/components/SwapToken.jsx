@@ -28,7 +28,7 @@ const SwapToken = () => {
 >
   {/* Top-Left Header with Golden Color */}
   <h2 className="absolute top-4 left-4 text-3xl font-bold text-[#FFD700]">
-    TokenFlow
+    LiquidityPool
   </h2>
 
   {/* Centered Content */}
