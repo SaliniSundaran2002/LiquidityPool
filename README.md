@@ -57,7 +57,7 @@ Ensure the following tools are installed on your system:
    Create a `.env` file in the project root and define the following:
    ```env
    API_KEY=your_api_key
-   PRIVATE_KEY=your_ethereum_private_key
+   PRIVATE_KEY=your_private_key
    ```
    Alternatively, use Hardhat's localhost environment:
    ```bash
